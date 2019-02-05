@@ -1,0 +1,28 @@
+body{
+	width: 60%;
+	margin: 3% 20% 20% 20%;
+	border: 15px solid #bdc3c7;
+	padding: 2%;
+	font-family: 'Source Sans Pro', serif;
+}
+
+h1{
+	color: #3498db;
+	letter-spacing: 0.3em;
+	font-size: 1.0em;
+	font-weight: 400;
+}
+
+h2{
+	color: #2c3e50;
+	font-weight: 700;
+	font-size: 2.0em;
+}
+
+div p:nth-child(3){
+	border-left: 6px solid #bdc3c7;
+}
+
+hr{
+	color: #f1f1f1;
+}
