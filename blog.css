@@ -28,7 +28,7 @@ h2{
 	font-size: 2.0em;
 }
 
-div p:nth-child(3n + 1){
+div p:nth-of-type(3n + 1){
 	border-left: 6px solid #eda489;
 }
 
@@ -59,4 +59,11 @@ h3{
 	margin: 0;
 	padding-bottom: .2em;
 	border-bottom: 1px solid black;
+}
+
+img{
+	float: left;
+	width: 25%;
+	border-radius: 10px;
+	margin: .2em;
 }
