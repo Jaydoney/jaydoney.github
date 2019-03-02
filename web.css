@@ -132,3 +132,16 @@ span.websiteName{
 h5.card-title{
   font-size: 3.5vw;
 }
+
+a.nav-link:hover{
+  text-decoration: underline;
+}
+
+.fa, .fab{
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    border: solid gray .6px;
+    background-color: #f4f5f7;
+}
