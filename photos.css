@@ -1,0 +1,39 @@
+html{
+	font-family: 'Roboto', sans-serif;
+	background-image: url("Toronto Skyline.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+
+}
+
+img{
+	box-shadow: 10px 10px 5px black;
+}
+h1{
+	font-weight: 400;
+	font-size: 4.0em;
+	margin-right: 2.66%;
+	padding-bottom: 15px;
+	text-align: right;
+	width: auto;
+}
+img{
+	width: 28%;
+	margin: 0 2.66% 2.66% 2.66%;
+	float: left;
+}
+
+a{
+	font-weight: 700;
+	color: black;
+	font-family: 'Source Sans Pro', serif;
+	font-size: 2.3em;
+	text-decoration: none;
+	margin-left: .5em;
+}
+
+a:hover{
+	color: lightgray;
+}

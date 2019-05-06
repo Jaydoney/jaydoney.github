@@ -18,7 +18,7 @@
 
 }
 p{
-  font-size: 2.0vw;
+  font-size: 1.25vw;
   margin-bottom: 0;
 }
 
@@ -96,8 +96,12 @@ body{
 }
 
 .Content{
-  margin: auto;
+  margin-top: 6em;
   padding: 1em;
+}
+
+.Content-Skills{
+  float: left;
 }
 
 .Content p{
@@ -123,6 +127,15 @@ span.websiteName{
 
 }
 
+.card-about{
+  width: 50%;
+  margin: 2em;
+  text-align: center;
+  background-color: #fff;
+  background-clip: border-box;
+  float: left;
+}
+
 .card{
   width: 60%;
   margin: 4em auto;
@@ -145,3 +158,32 @@ a.nav-link:hover{
     border: solid gray .6px;
     background-color: #f4f5f7;
 }
+
+.AP-text p{
+  font-size: 1vw;
+}
+
+.AP-text p strong{
+  font-size: 1.5vw;
+}
+
+.card-AP{
+  width: 40%;
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 4em auto;
+}
+
+.card-AP img{
+  width: 100%;
+}
+

@@ -1,0 +1,15 @@
+html{
+	background: white;
+}
+
+img{
+	width: 60%;
+}
+
+.AP-Content{
+	margin: 1em;
+}
+
+.nav-item.dropdown{
+  padding-left: 0.25em;
+}
